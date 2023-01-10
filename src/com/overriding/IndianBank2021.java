@@ -33,6 +33,10 @@ public class IndianBank2021 {
 			System.out.println(entry);
 		}
 
+		System.out.println("India is my country");
+		System.out.println("Selenium");
+		System.out.println("Java");
+
 	}
 
 }
