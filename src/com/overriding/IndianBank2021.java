@@ -1,6 +1,8 @@
 package com.overriding;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -36,6 +38,19 @@ public class IndianBank2021 {
 		System.out.println("India is my country");
 		System.out.println("Selenium");
 		System.out.println("Java");
+		
+		
+		List<String> li = new ArrayList<String>();
+		li.add("a");
+		li.add("b");
+		li.add("c");
+		li.add("d");
+		li.add("f");
+
+		for (int i = 0; i < li.size(); i++) {
+			String string = li.get(i);
+			System.out.println(string);
+		}
 
 	}
 
